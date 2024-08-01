@@ -19,7 +19,7 @@ function Question({title}: {title: string}) {
                 style={{ maxHeight: isOpen ? `${contentRef.current ? contentRef.current.scrollHeight : 0}px` : '0px' }}
                 className={`transition-max-height duration-300 overflow-hidden`}
             >
-                <p className='text-gray-700 mt-2'>
+                <p className='text-gray-700 mt-2 text-left'>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Velit aperiam harum dolore, est ducimus alias eius consequuntur in ut perspiciatis! 
                     Praesentium eum voluptatibus ducimus incidunt illo voluptatem invento.
