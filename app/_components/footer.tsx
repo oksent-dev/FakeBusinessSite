@@ -11,7 +11,7 @@ return (
                     <img className='w-48' src='/logo.svg' alt='Logo' />
                 </Link>
                 <p className='text-base italic text-gray-700'>
-                    &copy; {currentYear} Paweł Bielecki. All rights reserved.
+                    &copy; {currentYear} Business site. All rights reserved.
                 </p>
             </div>
         </div>
